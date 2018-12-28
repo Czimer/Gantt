@@ -1,0 +1,47 @@
+.zoom-bar {
+  height: 40px;
+  line-height: 40px;
+  padding: 5px 10px;
+  margin-left: 40%;
+}
+
+.radio-label {
+  background: #bdc3c7;
+  box-shadow: inset -2px -2px #acb2b7;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 70px;
+}
+
+.radio-label > input[type=radio] {
+  height: 0;
+  margin: 0;
+  visibility: hidden;
+  width: 0;
+}
+
+.radio-label-active {
+  background: mediumseagreen;
+  box-shadow: none;
+}
+
+.gantt-container {
+  height: 500px;
+  width: 100%;
+}
+
+.listTaskCustomer {
+    font-family: Alef;
+    font-size: 1.7em;
+}
+
+.listTaskName {
+    font-family: Alef;
+    font-size: 1.2em;
+}

@@ -1,0 +1,119 @@
+.gantt_cell {
+  background: #f5f5ef;
+}
+
+.gantt_task_cell {
+  background: #f5f5ef;
+}
+
+.taskListHeader {
+    font-family: Alef;
+    background: #1f1f14;
+    color: whitesmoke;
+    font-size: 2em;
+}  
+
+.gridTaskHeavy {
+  background: #2b2b88;
+  border-color: #2b2b88; 
+  border-radius: 8px;
+}
+
+
+.gridTaskSmooth {
+  background: #94b8b8;
+  border-color: #94b8b8; 
+  border-radius: 8px;
+}
+
+.gridTaskHidden {
+  visibility: hidden;
+}
+
+.gridTaskWeapon {
+    font-family: Alef;
+    font-size: 2em;
+}
+
+.gridTaskPlat {
+    font-family: Alef;
+    font-size: 1.2em;
+}
+
+.scale {
+    font-family: Alef;
+    background: #1f1f14;
+    color: white;
+    font-size: 1.3em;
+    direction: rtl;
+}
+
+
+.main {
+  background: dodgerblue;
+  height: 100%;
+  width: 100%;
+  direction: rtl;
+  font-family: Alef;
+  color: white;
+}
+
+.line1 {
+  background: pink;
+  height: 55%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.line2 {
+    background: red;
+  height: 25%;
+}
+
+.line3 {
+    background: rebeccapurple;
+  height: 15%;
+  width: 100%;
+}
+
+.name {
+  height: 80%;
+  width: 40%;
+  margin-right: 2%;
+  margin-top: 1%;
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.hours {
+  height: 60%;
+  width: 40%;
+  margin-right: 17%;
+  margin-top: 1%;
+  display: inline-block;
+  font-size: 1em;
+  direction: ltr;
+}
+
+.weapon {
+  height: 80%;
+  width: 40%;
+  margin-right: 3%;
+  display: inline-block;
+  font-size: 0.8em;
+}
+
+.phone {
+  height: 80%;
+  width: 40%;
+  margin-right: 58%;
+  display: inline-block;
+  font-size: 0.8em;
+  direction: ltr;
+}
+
+.tooltip {
+    font-family: Alef;
+    direction: rtl;
+}
